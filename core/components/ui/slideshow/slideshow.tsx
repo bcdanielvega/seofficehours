@@ -114,7 +114,7 @@ const Slideshow = ({ className, interval = 15_000, slides }: Props) => {
               inert={index === activeSlide - 1 ? undefined : true}
               key={index}
             >
-              <div className="relative">
+              <div className="relative h-full">
                 {slide.image && (
                   <NextImage
                     alt={slide.image.altText}
@@ -129,7 +129,7 @@ const Slideshow = ({ className, interval = 15_000, slides }: Props) => {
                 )}
                 <div
                   className={cn(
-                    'flex flex-col gap-4 px-12 pb-48 pt-36',
+                    'flex flex-col gap-4 px-12 pb-48 pt-36 h-full',
                     !slide.image && 'bg-gray-100',
                   )}
                 >

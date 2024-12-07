@@ -1,36 +1,35 @@
 import { Slideshow as ComponentsSlideshow } from '~/components/ui/slideshow';
 
 import SlideshowBG from './slideshow-bg-01.jpg';
+import SlideshowBG1 from './officehours-slide1.png';
 
 const slides = [
   {
-    cta: { label: 'Shop now', href: '/#' },
+    cta: { label: 'Learn More', href: '/#' },
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+      'SE Office Hours is a demo store for BigCommerce Solution Engineers to highlight use-cases, quick fixes, and deep thoughts.',
     image: {
-      src: SlideshowBG,
+      src: SlideshowBG1,
       altText: 'An assortment of brandless products against a blank background',
-      blurDataUrl:
-        'data:image/jpeg;base64,/9j/4QC8RXhpZgAASUkqAAgAAAAGABIBAwABAAAAAQAAABoBBQABAAAAVgAAABsBBQABAAAAXgAAACgBAwABAAAAAgAAABMCAwABAAAAAQAAAGmHBAABAAAAZgAAAAAAAABIAAAAAQAAAEgAAAABAAAABgAAkAcABAAAADAyMTABkQcABAAAAAECAwAAoAcABAAAADAxMDABoAMAAQAAAP//AAACoAQAAQAAAAoAAAADoAQAAQAAAAcAAAAAAAAA/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgABwAKAwERAAIRAQMRAf/EABUAAQEAAAAAAAAAAAAAAAAAAAMJ/8QAIBAAAQQBBAMAAAAAAAAAAAAAAQIDBAURABIhMQYjgf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABkRAAIDAQAAAAAAAAAAAAAAAAARAQIhQf/aAAwDAQACEQMRAD8AoZ5EzayKWW3Syo0GyKPTJlsF9ts9klsKTu46GQOfms2awJfAKywmt1sRNgqK7PS0gSHI4WltTmBuKQckJJzgE9aYa0tP/9k=',
     },
     key: 1,
-    title: '25% Off Sale',
+    title: 'Inside the Mind of a Solution Engineer',
   },
 
   {
-    cta: { label: 'Shop now', href: '/#' },
+    cta: { label: 'Shop Now', href: '/#' },
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+      "Discover a curated collection of wardrobe essentials designed for comfort, quality, and versatility. From classic tees to tailored trousers, our pieces are crafted to effortlessly complement your lifestyle—whether you're dressing up, staying casual, or anything in between. Elevate your closet with staples that never go out of style. Because great fashion starts with the basics.",
     key: 2,
-    title: 'Great Deals',
+    title: 'Timeless Staples, Everyday Style',
   },
 
   {
-    cta: { label: 'Shop now', href: '/#' },
+    cta: { label: 'Shop Coffee', href: '/#' },
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+      "Power your grind with coffee crafted for those who get it done. Whether you're sealing the deal, hitting deadlines, or crushing goals, every sip is a step closer to victory. Bold, energizing, and relentless—just like you. Because greatness doesn’t brew itself.",
     key: 3,
-    title: 'Low Prices',
+    title: 'Coffee is for Closers',
   },
 ];
 
