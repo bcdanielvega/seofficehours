@@ -57,6 +57,7 @@ export const Header = async ({ cart }: Props) => {
 
   return (
     <ComponentsHeader
+      className={'bg-bcgray'}
       account={
         customerAccessToken ? (
           <Dropdown
@@ -102,6 +103,7 @@ export const Header = async ({ cart }: Props) => {
       locales={localeLanguageRegionMap}
       logo={data.settings ? logoTransformer(data.settings) : undefined}
       search={<QuickSearch logo={data.settings ? logoTransformer(data.settings) : ''} />}
+     
     />
   );
 };

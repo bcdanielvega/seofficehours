@@ -95,7 +95,7 @@ export default async function RootLayout({ params, children }: Props) {
 
   return (
     <html className={`${inter.variable} font-sans`} lang={locale}>
-      <body className="flex h-screen min-w-[375px] flex-col">
+      <body className="flex h-screen min-w-[375px] flex-col bg-bcgray">
         <Notifications />
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>{children}</Providers>

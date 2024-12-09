@@ -30,6 +30,7 @@ const config = {
           500: '#546E7A',
           600: '#091D45',
         },
+        bcgray: '#F6F7F9'
       },
       fontFamily: {
         sans: ['var(--font-inter)'],
