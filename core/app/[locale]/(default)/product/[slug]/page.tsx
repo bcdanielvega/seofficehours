@@ -15,6 +15,8 @@ import { Reviews } from './_components/reviews';
 import { Warranty } from './_components/warranty';
 import { getProduct } from './page-data';
 
+import Faqs from '~/components/product-faqs';
+
 interface Props {
   params: Promise<{ slug: string; locale: string }>;
   searchParams: Promise<Record<string, string | string[] | undefined>>;
@@ -105,6 +107,14 @@ export default async function Product(props: Props) {
         <div className="lg:col-span-2">
           <Description product={product} />
           <Warranty product={product} />
+
+          <h2 className="my-4 text-xl font-bold md:text-2xl">{t('FAQ.heading')}</h2>
+          <div className="mx-auto md:w-2/3">
+            <Suspense fallback={t('loading')}>
+              <Faqs productId={product.entityId} />
+            </Suspense>
+          </div>
+
           <Suspense fallback={t('loading')}>
             <Reviews productId={product.entityId} />
           </Suspense>

@@ -147,12 +147,13 @@ export const Details = ({ product }: Props) => {
       <div className="my-12">
         <h2 className="mb-4 text-xl font-bold md:text-2xl">{t('additionalDetails')}</h2>
         <div className="grid gap-3 sm:grid-cols-2">
-          {Boolean(product.sku) && (
+          {/* Removed SKU  */}
+          {/* {Boolean(product.sku) && (
             <div>
               <h3 className="font-semibold">{t('sku')}</h3>
               <p>{product.sku}</p>
             </div>
-          )}
+          )} */}
           {Boolean(product.upc) && (
             <div>
               <h3 className="font-semibold">{t('upc')}</h3>
@@ -183,14 +184,15 @@ export const Details = ({ product }: Props) => {
               <p>{product.condition}</p>
             </div>
           )}
-          {Boolean(product.weight) && (
+          {/* Removed Product Weight  */}
+          {/* {Boolean(product.weight) && (
             <div>
               <h3 className="font-semibold">{t('weight')}</h3>
               <p>
                 {product.weight?.value} {product.weight?.unit}
               </p>
             </div>
-          )}
+          )} */}
           {Boolean(customFields) &&
             customFields.map((customField) => (
               <div key={customField.entityId}>

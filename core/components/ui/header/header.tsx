@@ -58,11 +58,11 @@ const Header = ({
         {typeof logo === 'object' ? (
           <BcImage
             alt={logo.altText}
-            className="max-h-16 object-contain"
-            height={32}
+            className="max-h-32 object-contain"
+            height={64}
             priority
             src={logo.src}
-            width={155}
+            width={300}
           />
         ) : (
           <span className="truncate text-2xl font-black">{logo}</span>
