@@ -120,7 +120,7 @@ const Header = ({
           )}
         </NavigationMenuPrimitive.List>
 
-        <NavigationMenuPrimitive.Viewport className="absolute start-0 top-full z-50 w-full bg-white pb-12 pt-6 shadow-xl duration-200 animate-in slide-in-from-top-5" />
+        <NavigationMenuPrimitive.Viewport className="absolute start-0 top-full z-50 w-full bg-bcgray pb-12 pt-6 shadow-xl duration-200 animate-in slide-in-from-top-5" />
       </NavigationMenuPrimitive.Root>
 
       <div className="flex items-center gap-2 lg:gap-4">
